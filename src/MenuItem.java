@@ -5,7 +5,7 @@ import java.lang.Long;
 
 /**
  * Created by lonny on 5/22/2017.
- */
+ *///fields
 public class MenuItem {
     private String title;
     private Date created;
@@ -13,6 +13,7 @@ public class MenuItem {
     private double price;
     private final String category;
 
+    //constructors
     public MenuItem (String title,String ingredients, double price, String category){
         this.title = title;
         this.created = new Date();
@@ -25,6 +26,19 @@ public class MenuItem {
         this(title,"",0,"");
 
 
+    }
+    //getters and setters
+    public String getTitle(String title){
+        return this.title;
+    }
+    public void setTitle(String title){
+        this.title=title;
+    }
+    public Date getCreated(Date created){
+        return this.created;
+    }
+    public String getIngredients(String ingredients){
+        return this.ingredients;
     }
 
     public void setIngredients(String ingredients){
