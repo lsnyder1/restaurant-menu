@@ -58,6 +58,7 @@ public class MenuItem {
 
     }
     public ArrayList<MenuItem> getAllMenuItems(){
+
         return MenuItem.allMenuItems;
     }
 
