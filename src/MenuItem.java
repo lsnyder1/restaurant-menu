@@ -57,7 +57,7 @@ public class MenuItem {
 
 
     }
-    public ArrayList<MenuItem> getAllMenuItems(){
+    public static ArrayList<MenuItem> getAllMenuItems(){
 
         return MenuItem.allMenuItems;
     }
