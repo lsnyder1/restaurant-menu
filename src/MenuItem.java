@@ -12,7 +12,7 @@ public class MenuItem {
     private String ingredients;
     private double price;
     private final String category;
-    public static ArrayList<MenuItem> allMenuItems;
+    public static ArrayList<MenuItem> allMenuItems = new ArrayList<>();
 
     //constructors
     public MenuItem (String title,String ingredients, double price, String category){
@@ -21,7 +21,7 @@ public class MenuItem {
         this.ingredients = ingredients;
         this.price = price;
         this.category = category;
-        allMenuItems.add(this);
+        MenuItem.allMenuItems.add(this);
     }
 
     public MenuItem(String title){
