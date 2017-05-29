@@ -39,9 +39,9 @@ public class MenuItem {
     public Date getCreated(Date created){
         return this.created;
     }
-    public String getIngredients(String ingredients){
-        return this.ingredients;
-    }
+    public String getIngredients(String ingredients){return this.ingredients;}
+    public String getCategory(String category) {return this.category;}
+
 
     public void setIngredients(String ingredients){
         this.ingredients=ingredients;
